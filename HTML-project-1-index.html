@@ -1,0 +1,544 @@
+<!DOCTYPE HTML>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" />
+
+<!-- This project is good for marks but i also am going to be using this myself at home in Forza Horizon 5 -->
+
+<head>
+	<!-- Title Area -->
+
+	<title>Guide To Tuning/Upgrading In FH5</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta charset="utf-8" />
+	
+	<style>
+		
+		<!-- Sidebar CSS -->
+		
+		body {
+			font-family: "Lato", sans-serif;
+		}
+
+		.sidenav {
+			height: 100%;
+			width: 200px;
+			position: fixed;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			background-color: #A9A9A9;
+			overflow-x: hidden;
+			padding-top: 20px;
+		}
+
+		.sidenav a {
+			padding: 6px 6px 6px 32px;
+			text-decoration: none;
+			font-size: 25px;
+			color: #000000;
+			display: block;
+		}
+
+		.sidenav a:hover {
+			color: #f1f1f1;
+		}
+
+		.main {
+			margin-left: 200px;
+		}
+		@media screen and (max-height: 450px) {
+			.sidenav {padding-top: 15px;}
+			.sidenav a {font-size: 18px;}
+		}
+
+		<!-- Self Written CSS -->
+
+		.img {
+			display:block;
+			margin-left:auto;
+			margin-right:auto;
+			border:5px solid #000000;
+		}
+		.column {
+			float:left;
+			width:50%;
+		}
+		.button {
+			background-color:#000000;
+			border:none;
+			color:white;
+			padding:7.5px 16px;
+			text-align:center;
+			text-decoration:none;
+			display:inline-block;
+			font-size:16px;
+			cursor:pointer;
+		}
+	</style> 
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:Attachment msdt:dt="string">1</mso:Attachment>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+
+<body style="margin-right:300px; margin-left:300px; margin-top:40px; margin-bottom:30px; background-color:azure;">
+
+	<!-- Section 1: Sidebar -->
+	<div class="sidenav">
+		<a href="#conversions">Conversions</a>
+		<a href="#aeroandappearance">Aero and Appearance</a>
+		<a href="#tiresandrims">Tires and Rims</a>
+		<a href="#drivetrain">Drivetrain</a>
+		<a href="#platformandhandling">Platform and Handling</a>
+		<a href="#engine">Engine</a>
+		<br/>
+		<br/>
+		<br/>
+		<a href="#differential">Differential</a>
+		<a href="#brakes">Brakes</a>
+		<a href="#aero">Aero</a>
+		<a href="#damping">Damping</a>
+		<a href="#springs">Springs</a>
+		<a href="#antirollbars">Anti Roll Bars</a>
+		<a href="#alignment">Alignment</a>
+		<a href="#gearing">Gearing</a>
+		<a href="#tires">Tires</a>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		
+		<a href="#footer">Bottom</a>
+	</div>
+	
+	
+	
+	<!-- Section 2: insiders guide -->
+	<div>
+		<h1 style="text-align:center;">An Insider Guide To Forza Horizon 5 Tuning and Upgrades</h1>
+		<img class="img" src="https://www.thedrive.com/content/2021/10/ForzaHorizon5_Launch_Preview-04_16x9_WM.jpg?quality=85&width=1440&quality=70" alt="Forza5 front cover" />
+	</div>
+	
+	
+	
+	<!-- Section 3: Notices -->
+	<div>
+		<br/>
+		<br/>
+		<h2>Before You Read:</h2>
+		<h6>
+		<ol>
+			<li>This guide is for race cars only.</li>
+			<li>This guide is not perfect and can still use iprovement.</li>
+			<li>This guide is only a base tune and you may still need to tweak your car.</li>
+			<li>Please give feedback and ideas to my email <a href="#footer">here</a></li>
+		</ol>
+		</h6>
+		<br/>
+		<br/>
+		</div>
+	
+	
+	
+	<!-- Section 4: Upgrades -->
+	<div>
+		<h2 style="text-align:center;">Upgrades</h2>
+		<br/>
+			<img class="img" src="https://diamondlobby.com/wp-content/uploads/2021/11/tuningcar.jpg" alt="Forza5 upgrade menu" width="600" hight="335" />
+		<br/>
+		<h3 id="conversions">Conversions</h3>
+		<h4>Engine Swap</h4>
+		<ul>
+			<li>Keep stock unless you need the power.</li>
+		</ul>
+		<h4>Drivetrain Swap</h4>
+		<ul>
+			<li>Keep stock unless you really want to change.</li>
+		</ul>
+		<h4>Aspiration</h4>
+		<ul>
+			<li>Keep stock unless you need the power.</li>
+		</ul>
+		<h4>Body Kit</h4>
+		<ul>
+			<li>Can increase handling and looks cool.</li>
+			<li>Cannot use adjustable aero if you apply</li>
+		</ul>
+		<br/>
+		<h3 id="aeroandappearance">Aero and Apperance</h3>
+		<h4>Front Bumper</h4>
+		<ul>
+			<li>Useful for adding front grip and custom aero.</li>
+			<li>Better to build without, optional.</li>
+			<li>If non adjustable, good for tweaking PI later</li>
+		</ul>
+		<h4>Rear Wing</h4>
+		<ul>
+			<li>If it increases PI, do not use unless you have the extra budget or need more rear grip.</li>
+			<li>If it decreases PI than use it if needed.</li>
+			<li>Good to have custom aero tuning</li>
+			<li>Use to tweak PI if not adjustable</li>
+		</ul>
+		<h4>Rear Bumper</h4>
+		<ul>
+			<li>Unsure</li>
+		</ul>
+		<h4>Side Skirts</h4>
+		<ul>
+			<li>Unsure</li>
+		</ul>
+		<h4>Hood</h4>
+		<ul>
+			<li>Unsure</li>
+		</ul>
+		<br/>
+		<h3 id="tiresandrims">Tires and Rims</h3>
+		<h4>Tire Compound</h4>
+		<ul>
+			<li>For AWD, stock or 1-2 levels up.</li>
+			<li>For RWD and FWD, semi-slick is best if you have the PI budget.</li>
+		</ul>
+		<h4>Front Tire Width</h4>
+		<ul>
+			<li>For FWD upgrade for less understeer.</li>
+			<li>For AWD and RWD upgrade only if needed or have the PI budget.</li>
+		</ul>
+		<h4>Rear Tire Width</h4>
+		<ul>
+			<li>AWD and FWD use it if you need a little extra rear grip.</li>
+			<li>RWD always use for extra rear grip unless you don't have the PI budget.</li>
+		</ul>
+		<h4>Rim Style</h4>
+		<ul>
+			<li>Use this to dial in your PI at the end.</li>
+		</ul>
+		<h4>Front and Rear Rim Size</h4>
+		<ul>
+			<li>Use bigger rims to make your car more responsive.</li>
+		</ul>
+		<h4>Front and Rear Track Width</h4>
+		<ul>
+			<li>AWD and FWD, use to increase overall handling of the car.</li>
+			<li>RWD upgrading rear while leaving front stock helps for handling.</li>
+			<li>Use to dial oversteer and understeer.</li>
+			<li>More rear spacing is more stability and understeer.</li>
+			<li>More front spacing is more responsive and oversteer.</li>
+		</ul>
+		<br/>
+		<h3 id="drivetrain">Drivetrain</h3>
+		<h4>Clutch</h4>
+		<ul>
+			<li>A more manual control scheme makes this less useful.</li>
+			<li>On automatic and manual clutchless this helps decrease shift time.</li>
+		</ul>
+		<h4>Transmission</h4>
+		<ul>
+			<li>Sport transmission is most versatile upgrade.</li>
+			<li>Use race if you have spare PI or want more gears.</li>
+			<li>Unlocks final drive tuning.</li>
+		</ul>
+		<h4>Driveline</h4>
+		<ul>
+			<li>Good for PI tweaks at the end.</li>
+			<li>Will reduce rate and increase rev speed</li>
+		</ul>
+		<h4>Differential</h4>
+		<ul>
+			<li>Allways upgrade to unlock differential tuning at a low PI cost.</li>
+			<li>Use race differential for full tuning.</li>
+		</ul>
+		<br/>
+		<h3 id="platformandhandling">Platform and Handling</h3>
+		<h4>Brakes</h4>
+		<ul>
+			<li>Race brakes will almost always be useful.</li>
+		</ul>
+		<h4>Springs and Dampers</h4>
+		<ul>
+			<li>Race springs and dampers are best.</li>
+			<li>Unlocks full spring, damper, and alignment tuning.</li>
+		</ul>
+		<h4>Front and Rear Anti Roll Bars</h4>
+		<ul>
+			<li>Allways get to unlock tuning at a cheap PI cost.</li>
+		</ul>
+		<h4>Chassis Reinforcement and Roll Cage</h4>
+		<ul>
+			<li>For each class above stock, add one level of reinforcement.</li>
+			<li>Don't use full roll cage unless you really want to.</li>
+		</ul>
+		<h4>Weight Reduction</h4>
+		<ul>
+			<li>Here you chose to do full weight reduction or full power build.</li>
+			<li>For online racing, power is normally better but both are good.</li>
+			<li>Weight reduction will increase handling.</li>
+			<li>If you do not care about PI, or have extra, max out weight and power.</li>
+		</ul>
+		<br/>
+		<h3 id="engine">Engine</h3>
+		<h4>Intake</h4>
+		<ul>
+			<li>Highly valuable to make your car better.</li>
+		</ul>
+		<h4>Exhaust</h4>
+		<ul>
+			<li>Highly valuable to make our car better.</li>
+		</ul>
+		<h4>Oil and Cooling</h4>
+		<ul>
+			<li>Also good at a cheap PI cost.</li>
+		</ul>
+		<h4>Intercooler</h4>
+		<ul>
+			<li>Good if your car has a turbo or supercharger.</li>
+		</ul>
+		<h4>Camshaft</h4>
+		<ul>
+			<li>Useful but very expensive so only worth it if you have the extra budget.</li>
+		</ul>
+		<h4>Fuel System</h4>
+		<ul>
+			<li>Good for power if you have the budget.</li>
+		</ul>
+		<h4>Ignition</h4>
+		<ul>
+			<li>Good for power if you have the budget.</li>
+		</ul>
+		<h4>Rotors and Compression</h4>
+		<ul>
+			<li>Good for power if you have the budget.</li>
+		</ul>
+		<h4>Flywheel</h4>
+		<ul>
+			<li>Good to slightly increase PI.</li>
+			<li>Makes revs more responsive.</li>
+		</ul>
+		<h4>Supercharger</h4>
+		<ul>
+			<li>Upgrade if your car has a supercharger to add power.</li>
+		</ul>
+		<h4>Turbo</h4>
+		<ul>
+			<li>Save for last if you have the PI budget.</li>
+		</ul>
+		<h4>Displacement</h4>
+		<ul>
+			<li>Save for last if you have the extra PI budget.</li>
+		</ul>
+		<br/>
+		<br/>
+		<br/>
+	</div>
+	
+	
+	
+	<!-- Section 5: Tuning -->
+	<div>
+		<h2 style="text-align:center;">Tuning</h2>
+		<br/>
+		<img class="img" src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2021/11/forza-horizon-5-gearing-tuning.jpg?q=50&fit=crop&w=2000&dpr=1.5" alt="Forza5 tuning menu" Width="750" hight="375" />
+		<br/>
+		<h3 id="differential">Differential</h3>
+		<h4>Front</h4>
+		<ul>
+			<li>Acceleration</li>
+			<ul>
+				<li>Set to 10-50%, lower for more oversteer and higher for more understeer.</li>
+				<li>Lower is better for race.</li>
+			</ul>
+			<li>Deceleration</li>
+			<ul>
+				<li>Keep lower than your acceleration setting.</li>
+				<li>Start at 0% go up from there.</li>
+			</ul>
+		</ul>
+		<h4>Rear</h4>
+		<ul>
+			<li>Acceleration</li>
+			<ul>
+				<li>Set to 50-90%, lower for less powered older cars, higher for more powerful cars.</li>
+			</ul>
+			<li>Deceleration</li>
+			<ul>
+				<li>Keep lower than your acceleration setting.</li>
+				<li>Start at 0% go up from there.</li>
+			</ul>
+		</ul>
+		<h4>Center</h4>
+		<ul>
+			<li>Keep from 50-80%.</li>
+			<li>Higher is better for track builds, start at 70%.</li>
+		</ul>
+		<br/>
+		<h3 id="brakes">Brakes</h3>
+		<h4>Balance</h4>
+		<ul>
+			<li>Keep stock at start and adjust after test.</li>
+			<li>More front makes more oversteer, more rear is more stability.</li>
+		</ul>
+		<h4>Pressure</h4>
+		<ul>
+			<li>Adjust your total braking force.</li>
+			<li>Keep stock most of the time.</li>
+		</ul>
+		<br/>
+		<h3 id="aero">Aero</h3>
+		<h4>Front</h4>
+		<ul>
+			<li>Adjusts the amount of downforce applied to the front of the car.</li>
+			<li>More downforce for grip at speeds and much better cornering.</li>
+			<li>Makes car feel more responsive and snappy.</li>
+			<li>Makes car feel more responsive and snappy.</li>
+			<li>Keep stock until test.</li>
+		</ul>
+		<h4>Rear</h4>
+		<ul>
+			<li>Adjusts the amount of downforce on the rear end of the car.</li>
+			<li>More downforce for grip at speeds and much better cornering.</li>
+			<li>Less downforce for top speed and acceleration.</li>
+			<li>Keep stock until test.</li>
+		</ul>
+		<h3 id="damping">Damping</h3>
+		<br/>
+		<h4>Rebound Stiffness</h4>
+		<ul>
+			<li>Keep stock unless you must change it.</li>
+			<li>Increase stiffness for the end that is not losing grip.</li>
+			<li>Decrease stiffness for the end that is losing grip.</li>
+		</ul>
+		<h4>Bump Stiffness</h4>
+		<ul>
+			<li>Generally have 50-75% of your rebound stiffness.</li>
+			<li>Lower by a few notches at start and adjust later if needed.</li>
+		</ul>
+		<br/>
+		<h3 id="springs">Springs</h3>
+		<h4>Springs</h4>
+		<ul>
+			<li>Less front stiffness increases oversteer and less rear stiffness is understeer.</li>
+			<li>Overall higher makes less grip but more responsive.</li>
+			<li>Overall lower makes more grip but more understeer.</li>
+			<li>Lower front for AWD and FWD keep same and adjust as needed for RWD.</li>
+		</ul>
+		<h4>Ride Hight</h4>
+		<ul>
+			<li>Overall make a few notches lower.</li>
+			<li>Lowers center of gravity.</li>
+			<li>Low as possible without bottoming out</li>
+		</ul>
+		<br/>
+		<h3 id="antirollbars">Anti Roll Bars</h3>
+		<h4>Anti Roll Bars</h4>
+		<ul>
+			<li>Low front causes oversteer.</li>
+			<li>Low rear causes understeer.</li>
+			<li>For FWD and AWD 50% of stock front setting and 150% of stock rear setting.</li>
+			<li>Not sure for RWD.</li>
+		</ul>
+		<br/>
+		<h3 id="alignment">Alignment</h3>
+		<h4>Camber</h4>
+		<ul>
+			<li>Always keep camber negative.</li>
+			<li>Bump it up one or two notches up from stock in both settings.</li>
+		</ul>
+		<h4>Toe</h4>
+		<ul>
+			<li>Toe out is oversteer and response.</li>
+			<li>Toe in is understeer and stability.</li>
+			<li>For FWD and AWD go 1-3 notches toward toe out for oversteer.</li>
+			<li>For RWD put rear toe in 1-2 notches for good rear stability in corners.</li>
+		</ul>
+		<h4>Front Caster</h4>
+		<ul>
+			<li>Higher increases camber in corners.</li>
+			<li>Stay in between 5 and 7 degrees for most cars.</li>
+		</ul>
+		<br/>
+		<h3 id="gearing">Gearing</h3>
+		<h4>Forward Gears</h4>
+		<ul>
+			<li>Increase or decrease final drive to make it have the most speed.</li>
+			<li>The end of the last gear at the end of the chart or a little past.</li>
+			<li>For high power RWD put 1st and 2nd towards speed a little bit to control throttle.</li>
+			<li>For AWD and FWD keep gears stock.</li>
+		</ul>
+		<br/>
+		<h3 id="tires">Tires</h3>
+		<h4>Tire Pressure</h4>
+		<ul>
+			<li>Higher is more sudden loss of grip and more responsive.</li>
+			<li>Lower is more controllable loss of grip and more stability.</li>
+			<li>Keep from 1.8 to 2.3.</li>
+		</ul>
+	</div>
+	
+	
+	
+	<!-- Section 6: Related Content -->
+	<div>
+		<br/>
+		<br/>
+		<br/>
+		<h2 style="text-align:center;">Thank you for reading!</h2>
+		<br/>
+		<br/>
+		<br/>
+		<h3>Related Content:</h3>
+		<h5>
+		<ul>
+			<li>Forza horizon 5 tuning guide <a href="https://diamondlobby.com/forza-horizon-5/best-tuning-setups-for-forza-horizon-5/">Here</a></li>
+			<li>Forza horizon 5 upgrade guide <a href="https://www.windowscentral.com/forza-horizon-5-upgrading-guide">Here</a></li>
+			<li>Forza horizon 5 tuning video <a href="https://www.youtube.com/watch?v=wkHNIBBw6Tw&ab_channel=HokiHoshi" target="_blank">Here</a></li>
+			<li>Forza horizon 5 upgrade vidoe <a href="https://www.youtube.com/watch?v=nvSOOu_4XRw&list=PLA4QOPx0Kl1QzP3fpSZVUJbI5qdX8Nqn5&index=24&ab_channel=HokiHoshi" target="_blank">Here</a></li>
+		</ul>
+		</h5>
+		<br/>
+		<p style="text-align:right">By: Simon Duke<br/>Last edited: 02/03/2022</p>
+	</div>
+	
+	
+	
+	<!-- Section 7: Footer -->
+	<div style="margin-right:-90px; margin-left:-90px;">
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<footer id="footer">
+			<div class="column" style="background-color:aliceblue;">
+				<h3 style="text-align:center;">My Contact Information</h3>
+				<ul>
+					<li><b>Email: <a href="mailto:spsdrocks06@gmail.com" target="_blank">spsdrocks06@gmail.com</a></b></li>
+					<li><b>Phone Number: <a href="tel:7788679658">778-867-9658</a></b></li>
+					<li><b>Address: <a href="https://www.google.com/maps/place/Handsworth+Secondary/@49.3523089,-123.1053554,17z/data=!3m1!4b1!4m5!3m4!1s0x54866fc3b42d00ff:0xdbc07e4c7a008378!8m2!3d49.3522964!4d-123.1031667" target="_blank">1033 Handsworth Road, North Vancouver, BC, Canada</a></b></li>
+				</ul>
+				<br/>
+				<br/>
+			</div>
+			<div class="column" style="background-color:gainsboro;">
+				<h3 style="text-align:center;">Follow Our News Letter</h3>
+				<form style="text-align:center;" action="#">
+					<input type="text"required placeholder="First Name" style="border: 1px solid #808080;" />
+					<input type="text"required placeholder="Last Name" style="border: 1px solid #808080;" />
+					<br/>
+					<input type="text"required placeholder="Email" style="border: 1px solid #808080;" />
+					<input type="text"required placeholder="Phone Number" style="border: 1px solid #808080;" />
+					<br/>
+					<input type="checkbox"checked id="news" />
+					<label for="news">Do You Want To Recieve Weekly News Letters?</label>
+					<br/>
+					<br/>
+					<input type="submit" class="button" value="Submit" />
+				</form>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
